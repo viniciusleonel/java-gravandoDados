@@ -11,6 +11,8 @@ public class Teste {
     public static void main(String[] args) {
         String nomeDoArquivo = "estoque.csv";
         String diretorio = System.getProperty("user.home");
+        // ou para gravar em outra pasta:
+        // String diretorio = "C:\\Users\\Vinícius Leonel\\Documents";
         String caminho = diretorio + "\\" + nomeDoArquivo;
 
         List<String> conteudo = new ArrayList<>();
